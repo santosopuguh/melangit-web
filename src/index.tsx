@@ -3,9 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import TopNavigation from "./components/TopNavigation";
 
 ReactDOM.render(
   <React.StrictMode>
+    <TopNavigation />
     <App />
   </React.StrictMode>,
   document.getElementById('root')
